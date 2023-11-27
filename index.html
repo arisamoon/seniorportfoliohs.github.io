@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Senior Year HS Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="https://docs.google.com/document/d/159A6vh1jkdnMCOYTXajiRScgka_50TtC7g9FcsmCdQk/edit?usp=sharing" target="_blank">Resume</a>
+    <a href="https://hire-me-profile-arisamoonsammy1.seniorspds-34-fall-2023.repl.co/" target="_blank">Hire Me Profile</a>
+    <a href="contact.html">Junior Year Profolio</a>
+    <a href="https://www.linkedin.com/in/arisa-moonsammy-133252221/" target="_blank">Linkden</a>
+  </div>
+
+  <div id="main">
+     <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  </div>
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+  }
+  </script>
+  
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
